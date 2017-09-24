@@ -7,12 +7,13 @@ import { FormsModule }     from '@angular/forms';
 // components
 import { AppComponent }    from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent }   from './components/home/home.component';
 
 @NgModule({
   // modules
   imports: [ BrowserModule, HttpModule, FormsModule ],
   // compoennts
-  declarations: [ AppComponent, NavbarComponent ],
+  declarations: [ AppComponent, NavbarComponent, HomeComponent ],
   // services
   providers: [],
   // bootstrap
