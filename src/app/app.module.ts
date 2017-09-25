@@ -15,12 +15,13 @@ import { AngularTemplateDrivenFormsProjectComponent } from './components/angular
 import { GithubProjectComponent }                     from './components/github-project/github-project.component';
 import { QuestionsProjectComponent }                  from './components/questions-project/questions-project.component';
 import { FirebaseNosqlDatabaseProjectComponent }      from './components/firebase-nosql-database-project/firebase-nosql-database-project.component';
+import { FirebaseAuthenticationProjectComponent }     from './components/firebase-authentication-project/firebase-authentication-project.component';
 
 @NgModule({
   // modules
   imports: [ BrowserModule, HttpModule, FormsModule, ConfiguredRouterModule ],
   // compoennts
-  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent, QuestionsProjectComponent, FirebaseNosqlDatabaseProjectComponent ],
+  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent, QuestionsProjectComponent, FirebaseNosqlDatabaseProjectComponent, FirebaseAuthenticationProjectComponent ],
   // services
   providers: [],
   // bootstrap
