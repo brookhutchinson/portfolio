@@ -13,12 +13,13 @@ import { ContactComponent }                           from './components/contact
 import { AngularRouterProjectComponent }              from './components/angular-router-project/angular-router-project.component';
 import { AngularTemplateDrivenFormsProjectComponent } from './components/angular-template-driven-forms-project/angular-template-driven-forms-project.component';
 import { GithubProjectComponent }                     from './components/github-project/github-project.component';
+import { QuestionsProjectComponent }                  from './components/questions-project/questions-project.component';
 
 @NgModule({
   // modules
   imports: [ BrowserModule, HttpModule, FormsModule, ConfiguredRouterModule ],
   // compoennts
-  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent ],
+  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent, QuestionsProjectComponent ],
   // services
   providers: [],
   // bootstrap
