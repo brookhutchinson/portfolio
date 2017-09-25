@@ -14,12 +14,13 @@ import { AngularRouterProjectComponent }              from './components/angular
 import { AngularTemplateDrivenFormsProjectComponent } from './components/angular-template-driven-forms-project/angular-template-driven-forms-project.component';
 import { GithubProjectComponent }                     from './components/github-project/github-project.component';
 import { QuestionsProjectComponent }                  from './components/questions-project/questions-project.component';
+import { FirebaseNosqlDatabaseProjectComponent }      from './components/firebase-nosql-database-project/firebase-nosql-database-project.component';
 
 @NgModule({
   // modules
   imports: [ BrowserModule, HttpModule, FormsModule, ConfiguredRouterModule ],
   // compoennts
-  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent, QuestionsProjectComponent ],
+  declarations: [ AppComponent, NavbarComponent, HomeComponent, ContactComponent, AngularRouterProjectComponent, AngularTemplateDrivenFormsProjectComponent, GithubProjectComponent, QuestionsProjectComponent, FirebaseNosqlDatabaseProjectComponent ],
   // services
   providers: [],
   // bootstrap
