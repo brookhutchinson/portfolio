@@ -11,7 +11,6 @@ import { NavbarComponent }                            from './components/navbar/
 import { HomeComponent }                              from './components/home/home.component';
 import { ContactComponent }                           from './components/contact/contact.component';
 import { ActorsProjectComponent }                     from './components/actors-project/actors-project.component';
-import { AngularRouterProjectComponent }              from './components/angular-router-project/angular-router-project.component';
 import { AngularTemplateDrivenFormsProjectComponent } from './components/angular-template-driven-forms-project/angular-template-driven-forms-project.component';
 import { ApmProjectComponent }                        from './components/apm-project/apm-project.component';
 import { QuestionsProjectComponent }                  from './components/questions-project/questions-project.component';
@@ -26,7 +25,6 @@ import { SignInLandingPageProjectComponent }          from './components/sign-in
   declarations: [
     AppComponent, NavbarComponent, HomeComponent, ContactComponent,
     ActorsProjectComponent,
-    AngularRouterProjectComponent,
     AngularTemplateDrivenFormsProjectComponent,
     ApmProjectComponent,
     QuestionsProjectComponent,
